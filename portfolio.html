@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Behera's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-300">
+    <!-- Header Section with Image -->
+    <header class="text-center py-12 bg-gray-800 text-white">
+        <div class="max-w-3xl mx-auto">
+            <img src="IMG20240531082801.jpg" alt="Profile Image" class="w-32 h-32 rounded-full mx-auto border-4 border-teal-500 shadow-lg mb-4">
+            <h1 class="text-4xl font-bold">Hi, I'm Amit Behera</h1>
+            <p class="mt-3 text-lg">Computer Science Student & Developer</p>
+        </div>
+    </header>
+
+    <!-- About Section with Different Background -->
+    <section id="about" class="py-16 bg-gray-700 text-gray-100 hidden-section">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p>I’m a passionate 1st year computer science student at IIT Patna, focusing on web development and competitive programming. With a love for clean code and effective problem-solving, I aim to create efficient and engaging digital experiences.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-900 text-gray-300 hidden-section">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-gray-700 p-5 shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-teal-400">Interactive Portfolio</h3>
+                    <p class="mt-2">Responsive and animated portfolio built with HTML, CSS, and Tailwind, showcasing my skills and projects.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-700 p-5 shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-bold text-teal-400">Animated Language Learning Paths</h3>
+                    <p class="mt-2">An interactive project using flip cards to display learning paths for Python, Java, and JavaScript, linking to resources on GeeksforGeeks.</p>
+                    <a href=" https://akbeherab.github.io/index.html/" class="text-teal-400 underline mt-2 block">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-800 text-white hidden-section">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Tailwind CSS</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">C++</div>
+                <div class="skill-card">Responsive Design</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">React</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section with Ratings -->
+    <section id="connect" class="py-16 bg-gray-900 text-gray-300 hidden-section">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4 text-teal-400">Connect with Me</h2>
+            <p class="mb-8">Check out my competitive programming and developer profiles.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <!-- LeetCode -->
+                <a href="https://leetcode.com/u/AmitBehera05/" target="_blank" class="connect-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="w-12 h-12 mx-auto">
+                    <h3 class="text-xl font-semibold mt-3">LeetCode</h3>
+                    <p class="text-gray-400 mt-2">Rating: 1456</p>
+                    <p class="text-gray-400 mt-2">ploblems: 13</p>
+
+                </a>
+                <!-- Codeforces -->
+                <a href="https://codeforces.com/profile/Kbehera_05" target="_blank" class="connect-card">
+                    <img src="2944796.webp" alt="Codeforces" class="w-12 h-12 mx-auto">
+                    <h3 class="text-xl font-semibold mt-3">Codeforces</h3>
+                    <p class="text-gray-400 mt-2">Rating: 624</p>
+                    <p class="text-gray-400 mt-2">Ploblems: 16</p>
+                </a>
+                <!-- CodeChef with 2-Star Rating and Star Icon -->
+                <a href="https://www.codechef.com/users/b_amit09" target="_blank" class="connect-card">
+                    <img src="6179134-middle.png" alt="CodeChef" class="w-12 h-12 mx-auto">
+                    <h3 class="text-xl font-semibold mt-3">CodeChef</h3>
+                    <p class="text-gray-400 mt-2">Rating: 1306 <span style="font-size:100%;color:yellow;">★</span></p>
+                    <p class="text-gray-400 mt-2">Problemss: 241</p>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/Akbeherab" target="_blank" class="connect-card">
+                    <img src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="w-12 h-12 mx-auto">
+                    <h3 class="text-xl font-semibold mt-3">GitHub</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-800 text-white hidden-section">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <form class="mt-6">
+                <input type="text" placeholder="Name" class="block w-full p-2 border border-gray-600 rounded mb-4 bg-gray-700">
+                <input type="email" placeholder="Email" class="block w-full p-2 border border-gray-600 rounded mb-4 bg-gray-700">
+                <textarea placeholder="Message" class="block w-full p-2 border border-gray-600 rounded mb-4 bg-gray-700"></textarea>
+                <button class="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600 transition-colors">Send</button>
+            </form>
+            <div class="mt-8">
+                <a href="https://www.linkedin.com/in/amit-behera9/" target="_blank" class="inline-flex items-center text-teal-400 hover:underline">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn" class="w-6 h-6 mr-2"> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-gray-900 text-gray-500">
+        <p>&copy; 2024 Amit Behera. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Scroll Animation -->
+    <script>
+        // Function to add the animation classes
+        function animateOnScroll(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Alternate classes based on section position
+                    if (entry.target.id === 'about' || entry.target.id === 'skills') {
+                        entry.target.classList.add('show-slide-left'); // Slide in from left
+                    } else {
+                        entry.target.classList.add('show-slide-right'); // Slide in from right
+                    }
+                    observer.unobserve(entry.target); // Stop observing after animation
+                }
+            });
+        }
+
+        // Set up Intersection Observer
+        const observer = new IntersectionObserver(animateOnScroll, {
+            threshold: 0.3 
+        });
+
+        // Select all sections and add 'hidden-section' class initially
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden-section');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
